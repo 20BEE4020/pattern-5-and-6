@@ -1,0 +1,136 @@
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==0||j==0||i==n-1||j==n-1){
+                    System.out.print("9 ");
+                    
+            }
+            else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+           for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==n-1||j==n-1){
+                    System.out.print("9 ");
+                    
+            }else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+            
+
+    }
+}*/
+
+
+
+
+
+
+
+
+
+/*
+
+//pattern-5
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==0||j==0||i==n-1){
+                    System.out.print("5 ");
+                    
+            }
+            else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+           for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==n-1||j==n-1){
+                    System.out.print("5 ");
+                    
+            }else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+            
+
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//pattern-6
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==0||j==0){
+                    System.out.print("6 ");
+                    
+            }
+            else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+           for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i==0||j==0||i==n-1||j==n-1){
+                    System.out.print("6 ");
+                    
+            }else{
+                System.out.print("  ");
+            }
+                
+            }
+                System.out.println();
+            }
+            
+            
+
+    }
+}*/
+
+
